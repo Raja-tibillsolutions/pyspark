@@ -1,0 +1,8 @@
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
+
+in databse_name give name
+in username give nameof user
+
+after run this
+
+FLUSH PRIVILEGES;
