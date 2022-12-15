@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName('merge').getOrCreate()
-
+#read data
 
 df1= spark.read.csv("/home/raja/Desktop/Ekstep/Exhust_reports2/exhaust_reports/0134766018946826241_userinfo_20220823.csv",header=True)
 df1.printSchema()
